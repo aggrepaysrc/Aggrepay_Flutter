@@ -1,0 +1,6 @@
+framework module TraknPayObjC {
+  umbrella header "TraknPayObjC.h"
+
+  export *
+  module * { export * }
+}

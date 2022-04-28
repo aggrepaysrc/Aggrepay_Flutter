@@ -1,0 +1,22 @@
+PODS:
+  - aggrepay_flutter (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - aggrepay_flutter (from `.symlinks/plugins/aggrepay_flutter/ios`)
+  - Flutter (from `Flutter`)
+
+EXTERNAL SOURCES:
+  aggrepay_flutter:
+    :path: ".symlinks/plugins/aggrepay_flutter/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  aggrepay_flutter: d0977ef22c717f862b24b6bc9f0cc50052bb4ca3
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+
+PODFILE CHECKSUM: 34c3471073a7fbe5276eff23dc198c1ac11026b2
+
+COCOAPODS: 1.11.3
