@@ -22,17 +22,19 @@ Add this to dependencies in your pubspec.yaml file.
 
 ## Requirements
 * Add Theme Compat
+
 The aggrepay SDK requires that you add the theme compat in your AndroidManifest.xml file
 
-     <application
-           android:theme=”@style/Theme.AppCompat.Light”>
+    <application
+          android:theme=”@style/Theme.AppCompat.Light”>
 
 * Add Dependency in app level “build.gradle” file
+
 Open the build.gradle file in your project. To open the build.gradle file, in your root  folder Android => app => src => build.gradle.
 
-     Dependencies{
-       implementation 'androidx.appcompat:appcompat:1.3.1'
-     }
+    Dependencies{
+      implementation 'androidx.appcompat:appcompat:1.3.1'
+    }
 
 
 
