@@ -14,7 +14,6 @@ class AggrepayFlutter {
         'params': params,
       },
     );
-    //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
 
     var decodedData = jsonDecode(data);
 

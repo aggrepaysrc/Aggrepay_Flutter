@@ -4,6 +4,7 @@ Flutter plugin for Aggrepay SDK,
 * Getting Started
 * Prerequisites
 * Installation
+* Requirements
 * Usage
 
 ## Getting Started:
@@ -18,6 +19,21 @@ Signup in Aggrepay website and contact the aggerpay team to get a API key and Sa
 Add this to dependencies in your pubspec.yaml file.
 
      aggrepay_flutter: ^0.0.1
+
+## Requirements
+* Add Theme Compat
+The aggrepay SDK requires that you add the theme compat in your AndroidManifest.xml file
+
+     <application
+           android:theme=”@style/Theme.AppCompat.Light”>
+
+* Add Dependency in app level “build.gradle” file
+Open the build.gradle file in your project. To open the build.gradle file, in your root  folder Android => app => src => build.gradle.
+
+     Dependencies{
+       implementation 'androidx.appcompat:appcompat:1.3.1'
+     }
+
 
 
 ## Usage:
@@ -147,5 +163,9 @@ Example,
 
 
 In the above example response variable returns a payment response as Json object with respective message and payment_response.
+
+
+
+
 
 
