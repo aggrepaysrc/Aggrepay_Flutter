@@ -18,7 +18,7 @@ Signup in Aggrepay website and contact the aggerpay team to get a API key and Sa
 ## Installation:
 Add this to dependencies in your pubspec.yaml file.
 
-     aggrepay_flutter: ^0.0.1
+     aggrepay_flutter: ^0.0.2+1
 
 ## Requirements
 * Add Theme Compat

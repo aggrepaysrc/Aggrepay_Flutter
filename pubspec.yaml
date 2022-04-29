@@ -1,6 +1,6 @@
 name: aggrepay_flutter
 description: The Aggrepay flutter SDK allows you to integrate Aggrepay payment gateway into your flutter application.
-version: 0.0.2
+version: 0.0.2+1
 homepage: null
 
 environment:
